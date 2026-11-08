@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="paper">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="室内装修设计师屈梦娜的个人主页。浏览住宅、餐饮、零售空间方案，以及图纸深化和平面设计作品。">
+<title>屈梦娜 · 室内设计个人主页</title>
+<link rel="stylesheet" href="style.css">
+<script src="projects.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+<header id="top"><div class="bar wrap">
+<a class="brand" href="#top"><span class="seal">屈</span><span>屈梦娜<small>MENGNA QU</small></span></a>
+<nav aria-label="主导航"><a href="#works">作品</a><a href="#practice">设计方向</a><a href="#about">关于我</a></nav>
+</div></header>
+<main id="main">
+<div id="home">
+<section class="intro wrap" aria-labelledby="title">
+<div><p class="eyebrow"><span class="dot"></span> 室内设计 / INTERIOR DESIGN</p><h1 id="title">屈梦娜<span>室内装修设计师</span></h1></div>
+<div class="intro-aside"><p>我做住宅、餐饮与零售空间设计。从平面梳理日常使用，再用材质和光线塑造空间。</p><a href="#works">查看设计作品 <span aria-hidden="true">↓</span></a></div>
+</section>
+<figure class="hero wrap"><a href="#project/song" aria-label="查看晋味宋坊"><img src="assets/song.webp" alt="晋味宋坊效果图，木格栅、暖光与花窗分隔用餐区" fetchpriority="high"><span class="hero-link" aria-hidden="true">↗</span></a><figcaption><span><strong>晋味宋坊</strong> <span class="subtle">/ 餐饮空间方案</span></span><span class="eyebrow">FEATURED PROJECT</span></figcaption></figure>
+<div class="wrap featured-index" aria-label="代表作品快捷入口">
+<a href="#project/home"><span class="eyebrow">RESIDENTIAL</span><strong>现代简约 · 雅居</strong><span aria-hidden="true">↗</span></a>
+<a href="#project/han"><span class="eyebrow">RETAIL</span><strong>汉服专卖店</strong><span aria-hidden="true">↗</span></a>
+<a href="#project/drawing"><span class="eyebrow">DETAIL DRAWINGS</span><strong>室内图纸与节点</strong><span aria-hidden="true">↗</span></a>
+</div>
+<section id="works" class="work wrap" aria-labelledby="works-title">
+<p class="eyebrow section-index">01 / WORK INDEX</p><div class="section-head"><h2 id="works-title">作品索引</h2><p id="result-count" aria-live="polite"></p></div>
+<div id="filters" class="filters" aria-label="作品分类"></div>
+<div id="grid" class="grid"></div>
+<noscript><p>请启用浏览器的 JavaScript 以查看项目索引和详情。</p></noscript>
+</section>
+<section id="practice" class="practice wrap" aria-labelledby="practice-title">
+<p class="eyebrow section-index">02 / DESIGN PRACTICE</p>
+<h2 id="practice-title">从布局到细部</h2>
+<div class="practice-grid">
+<article><p class="eyebrow section-index">01 / PLAN</p><h3>空间布局</h3><p>从使用需求出发，梳理入户、收纳、停留和通行。餐饮与零售方案也考虑顾客动线和运营分区。</p><a href="#project/song">查看餐饮空间分区 ↗</a></article>
+<article><p class="eyebrow section-index">02 / VISUALIZE</p><h3>材质与空间表现</h3><p>通过材质搭配、照明和陈设建立空间氛围，再用不同视角的效果图检验设计。</p><a href="#project/home">查看住宅效果图 ↗</a></article>
+<article><p class="eyebrow section-index">03 / DETAIL</p><h3>图纸表达</h3><p>用平面、吊顶、立面和节点交代尺寸与构件关系，让每一个视角都能回到同一套设计。</p><a href="#project/drawing">查看图纸与节点 ↗</a></article>
+</div>
+</section>
+<section id="about" class="about" aria-labelledby="about-title">
+<div class="wrap about-inner">
+<figure class="about-image"><img src="assets/suyun-tea.webp" alt="素韵住宅方案中的茶室，窗边木桌与低矮座椅" loading="lazy"><figcaption>素韵 · 一层茶室</figcaption></figure>
+<div class="about-copy"><p class="eyebrow section-index">03 / ABOUT ME</p><h2 id="about-title">关于我</h2>
+<p>我是屈梦娜，一名室内装修设计师。我的作品从住宅延伸到餐饮、零售和主题体验空间，也包括调研展板与图文手册。</p>
+<p>做方案时，我关注空间在日常里怎么用：从人走进门的第一步，到家具、灯光和收纳的具体位置，再把这些决定落实到图纸。</p>
+<div class="disciplines" aria-label="设计工具"><span>AutoCAD</span><span>3ds Max</span><span>D5</span><span>Photoshop</span></div>
+</div>
+</div>
+</section>
+</div>
+<section class="wrap project" id="project" hidden></section>
+</main>
+<footer class="wrap"><a class="brand" href="#top"><span class="seal">屈</span><span>屈梦娜<small>MENGNA QU</small></span></a><span class="eyebrow">DESIGN PORTFOLIO</span><a href="#top">回到首页 ↑</a></footer>
+<dialog id="viewer" aria-label="作品大图"><div class="viewer-bar"><p id="viewer-caption" aria-live="polite"></p><button id="close" aria-label="关闭大图">×</button></div><div class="viewer-image"><img id="full-image" alt=""></div><div class="viewer-nav"><button id="prev" aria-label="上一张">←</button><button id="zoom" aria-pressed="false">放大</button><button id="next" aria-label="下一张">→</button></div></dialog>
+</body>
+</html>
+
