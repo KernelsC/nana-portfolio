@@ -1,4 +1,4 @@
-const categories = ['全部', '住宅空间', '商业空间', '概念研究', '图纸深化', '平面设计'];
+const categories = ['全部', '住宅空间', '商业空间', '概念研究', '图纸深化'];
 const projects = [
   {id:'song', title:'晋味宋坊', en:'JINWEI SONGFANG', category:'商业空间', type:'餐饮空间方案', summary:'以晋地元素和宋式线条组织餐饮空间，从门头花窗延伸到室内格栅、卡座与包间。暖光、藤编和浅木色把不同的就餐区域连成一体。', gallery:[['song','散座与花窗隔断'],['song-front','门头效果'],['song-seat','半开放卡座'],['song-room','包间'],['song-axon','空间轴测'],['song-plan','平面分区'],['song-elevation','门头立面']]},
   {id:'home', title:'现代简约 · 雅居', en:'QUIET LIVING', category:'住宅空间', type:'住宅室内方案', summary:'从入户收纳、客餐厅到卧室，以浅胡桃木、米白布艺和灰色石材统一基调。深色柜面与局部灯带标出功能边界，保留公共空间的通透感。', gallery:[['home','客餐厅'],['home-lounge','客厅沙发墙'],['home-entry','入户与柜体'],['home-bedroom','卧室'],['home-plan','平面布置'],['home-floor','地面布置']]},
@@ -7,6 +7,6 @@ const projects = [
   {id:'mirror', title:'镜隙仙境', en:'THROUGH THE LOOKING GLASS', category:'概念研究', type:'合作毕业设计 · 方案深化', summary:'以暗黑童话组织沉浸式剧本杀空间。一层安排咖啡、桌游与入场缓冲，二至三层展开主题包厢和搜证路线，四层布置运营配套。', note:'氛围图为前期 AI 辅助概念表达，平面采用 R27 深化版本。', gallery:[['mirror','轻哥特门头概念'],['mirror-entry','入场缓冲区概念'],['mirror-tea','红皇后茶庭概念'],['mirror-1f','一层家具布置 · R27'],['mirror-2f','二层家具布置 · R27'],['mirror-3f','三层家具布置 · R27'],['mirror-4f','四层家具布置 · R27']]},
   {id:'heal', title:'不必解释', en:'A SPACE TO BE', category:'概念研究', type:'青少年心理疗愈中心 · 开题研究', summary:'围绕青少年心理疗愈中心展开场地与需求研究，尝试用入口过渡、分区和私密层级回应来访者在不同活动中的空间需求。', note:'图集呈现开题阶段的方案要点、研究与意向参考。', gallery:[['heal','方案要点'],['heal-site','场地概况'],['heal-research','研究内容与目标'],['heal-studies','空间意向参考']]},
   {id:'drawing', title:'室内图纸与节点', en:'DRAWING STUDIES', category:'图纸深化', type:'居住空间图纸 · 节点练习', summary:'从两套本地图册中选取平面、吊顶、室内立面和节点图，展示如何通过不同图种说明空间尺度、构件关系与装修细部。', gallery:[['drawing','居住空间平面布置'],['drawing-ceiling','居住空间天花布置'],['drawing-elevation','室内立面'],['drawing-detail','装饰施工详图选页'],['drawing-joinery','装饰施工节点选页']]},
-  {id:'graphic', title:'山西革命故事手册', en:'SHANXI STORY BOOKLET', category:'平面设计', type:'编辑设计 · 课程小组作品', summary:'以红色封面、目录、章节扉页、地图和图文页组织阅读顺序，展示历史题材手册的版式处理。', note:'原稿署名为课程第六组，按小组作品展示。', gallery:[['graphic','手册封面'],['graphic-contents','目录编排'],['graphic-map','地图页'],['graphic-layout','图文内页']]},
-  {id:'field', title:'艺术设计考察展板', en:'FIELD STUDY BOARD', category:'平面设计', type:'调研展板 · 图文编排', summary:'以图片、注释和分区标题整理考察资料，把不同场所的观察汇集成一张可纵向阅读的展板。', gallery:[['field','考察展板全幅']]}
+  {id:'graphic', title:'山西革命故事手册', en:'SHANXI STORY BOOKLET', category:'平面设计', type:'编辑设计 · 课程小组作品', summary:'手册按主题串联山西革命故事。红色封面建立视觉基调，目录和章节页标明阅读进度，地图补充地理背景，图文内页用不同的图片比例与留白区分叙事重点。', note:'原稿署名为课程第六组，按小组作品展示。', gallery:[['graphic','手册封面'],['graphic-contents','目录编排'],['graphic-map','地图页'],['graphic-layout','图文内页']]},
+  {id:'field', title:'艺术设计考察展板', en:'FIELD STUDY BOARD', category:'平面设计', type:'调研展板 · 图文编排', summary:'把不同场所的考察记录整理成一张纵向展板。分区标题标记每组观察主题，现场图片、细节图和注释按从整体到局部的顺序编排，便于快速浏览，也能放大逐段查看。', gallery:[['field','考察展板全幅']]}
 ];
